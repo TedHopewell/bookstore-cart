@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bookStoreStyle.css">
+    <link rel="stylesheet" href="cart.css">
+
+    
+    <!--font awesome imported files-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    
+
+    <title>Cart Page</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-1">
+            <h1>.Dr Literature</h1>
+           
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="booksStoreHome.html">Home</a>
+               
+               
+            </nav>
+        </div>
+    </header>
+
+    <nav class="bottom-navbar">
+        <a href="booksStoreHome.html" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#newRelease" class="fas fa-tags"></a>
+        <a href="index.html" class="fas fa-lock"></a>        
+    </nav>
+   
+        <div class="main">
+            <header class="header" id="header">
+                <h1>Shopping Cart</h1>
+                
+                <div class="icons">
+                    <p>0</p>
+                    <i href="cart.html" class="fas fa-shopping-cart"></i>
+                   
+                </div>
+            </header>
+
+            <div class="itemsBox">
+
+                <div class="books">
+
+                    <img src="./images/book types/Aladin.jpg" alt="Allading" srcset="">
+
+                    <div class="booksInfo">
+                        <h1>Alladin</h1>
+                        <p>R <span>199</span></p>
+                        <a href="#" title="Add to Cart" class="addToCart">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="books">
+
+                    <img src="./images/book types/The_Fault_in_Our_Stars.jpg" alt="Allading" srcset="">
+
+                    <div class="booksInfo">
+                        <h1>The The Fault in Our Stars</h1>
+                        <p>R <span>199</span></p>
+                        <a href="#" title="Add to Cart" class="addToCart">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="books">
+
+                    <img src="./images/book types/beyond the shaddows.jpg" alt="Allading" srcset="">
+
+                    <div class="booksInfo">
+                        <h1>Beyond The Shaddows</h1>
+                        <p>R <span>199</span></p>
+                        <a href="#" title="Add to Cart" class="addToCart">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div> 
+        
+        <div class="cartBox">
+            <div class="cart">
+                <i class="fa fa-close"></i>
+                <h1>Cart</h1>
+                <table></table>
+            </div>
+            
+        </div>
+
+    
+    <script src="scripts/cart.js"></script>
+</body>
+</html>
