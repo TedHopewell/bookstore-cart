@@ -437,15 +437,21 @@ section
 .newRelease
 {
     background-color: wheat;
+
 }
 
 .newRelease .newReleasedBooks .box
 {
-    display: inline-block;
+   
     align-items: center;
     gap: 3.5rem;
     padding: 2rem 2rem;
     margin: 1rem 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
 }
 
 .newRelease .newReleasedBooks .box:hover
@@ -462,6 +468,7 @@ section
 {
     font-size: 2rem;
     color: var(--black);
+    padding-top: 45px;
 }
 
 .newRelease .newReleasedBooks .box .content .price
@@ -485,10 +492,16 @@ section
     
 }
 .newRelease .newReleasedBooks .box .content .info h5{
-    background-color: #7c807a;
+    background-color: rgba(100,100,100,.2);
     border-radius: 50%;
     text-align: center;
+    height: 40px;
+    padding-top: 10px;
     
+}
+
+.left{
+    height: 150px;
 }
 
 
