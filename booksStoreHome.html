@@ -12,6 +12,8 @@
     <!--font awesome imported files-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
 
+    <link rel="stylesheet" href="candle animation/styleCanvas.css">
+
     <!--boxicons css-->
 
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
@@ -21,9 +23,11 @@
     
 </head>
 <body>
+    <canvas id="canvas"></canvas>
+
     <header class="header">
         <div class="header-1">
-            <h1>.Dr Literature</h1>
+            <h1><span>.Dr </span>Literature</h1>
             <form action="" class="search-form">
                 <input type="search" name="" placeholder="Search here...." id="search-box">
                 <label for="search-box" class="fas fa-search"></label>
@@ -37,17 +41,7 @@
             </div>
         </div>
 
-        <div class="header-2">
-            <nav class="navbar">
-                <a href="#home">Home</a>
-                <a href="#featured">Featured</a>
-                <a href="#newRelease">New Release</a>
-                <a href="#" class="fas fa-list"></a>
-                
-                
-               
-            </nav>
-        </div>
+       
     </header>
 
     <nav class="bottom-navbar">
@@ -57,7 +51,15 @@
         <a href="index.html" class="fas fa-lock"></a>        
     </nav>
     
-    
+    <!-- The sidebar -->
+<div class="sidebar">
+    <h1>Dr Literature Blackboard</h1>
+    <div id="underline"></div>
+    <a href="#home">Home</a>
+    <a href="#featured">Featured</a>
+    <a href="#newRelease"> New Release</a>
+    <a href="#contact">Contact</a>
+  </div>
 
 
     <!--Home section-->
@@ -397,6 +399,7 @@
 
 <script src="scripts/loginForm.js"></script>
 <script src="scripts/script.js"></script>
+<script src="candle animation/scriptCanvas.js"></script>
 
 </body>
 </html>
